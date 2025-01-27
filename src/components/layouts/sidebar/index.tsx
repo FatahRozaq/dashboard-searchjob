@@ -13,6 +13,12 @@ const Sidebar: FC<SidebarProps> = ({}) => {
                         Dashboard
                     </h2>
                 </div>
+                <div className="px-3 py-2">
+                    <ul>
+                        <li>User</li>
+                        <li>Job</li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
